@@ -1,1 +1,3 @@
-Error Document404/errorfiles/404.html
+RewriteEngine On
+RewriteBase /
+RewriteRule ^$ http://www.example.com/index.html [R=301,L]
